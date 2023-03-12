@@ -8,5 +8,5 @@ import {popNumber} from "rxjs/internal/util/args";
 })
 export class ProductComponent {
   @Input() product: IProduct
-  protected readonly popNumber = popNumber;
+  details = false
 }
